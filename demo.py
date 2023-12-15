@@ -1,8 +1,8 @@
 #importing libraries, flask and aws
 from flask import Flask, render_template, request,redirect, url_for
 import boto3
-#help
 
+#try
 app = Flask(__name__)
 
 #config our database (DynamoDB)
